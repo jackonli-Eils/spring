@@ -1,0 +1,18 @@
+spring 
+    profiles 
+        active
+           - dev
+---
+# configure the development environment
+spring
+    profiles dev
+    application
+        name microservicecloud-config-XXX-dev
+---
+# configure the test environment
+spring
+    profiles test
+    application
+        name microservicecloud-config-XXX-test
+
+# the file with utf-8 coding
